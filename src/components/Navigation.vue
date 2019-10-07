@@ -14,7 +14,7 @@
 <script>
 export default {};
 </script>
-<style>
+<style >
 .navbar {
   background-color: #252628;
   display: flex;
@@ -30,8 +30,15 @@ export default {};
   padding-left: 0;
 }
 .links a {
+  color: white;
   padding-right: 10px;
   text-decoration: none;
+}
+.links a:hover {
+  color: yellow;
+}
+.links a:last-child {
+  padding-right: 30px;
 }
 nav .title {
   color: white;

@@ -4,7 +4,7 @@
       Hello,<br />
       I'm Dami
     </h1>
-    <div class="links">
+    <div class="socials">
       <a href="#">GitHub</a>
       <a href="#">Medium</a>
       <a href="#">LinkedIn</a>
@@ -32,14 +32,14 @@ header {
   font-size: 7em;
   line-height: 0.9em;
 }
-.links {
+.socials {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
 }
 
 .intro,
-.links {
+.socials {
   margin-bottom: 100px;
 }
 </style>
