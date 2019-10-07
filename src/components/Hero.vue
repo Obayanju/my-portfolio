@@ -5,9 +5,15 @@
       I'm Dami
     </h1>
     <div class="socials">
-      <a href="#">GitHub</a>
-      <a href="#">Medium</a>
-      <a href="#">LinkedIn</a>
+      <a href="https://github.com/Obayanju"
+        ><img src="../assets/github.svg"
+      /></a>
+      <a href="https://www.linkedin.com/in/obayanju/"
+        ><img src="../assets/linkedin.svg"
+      /></a>
+      <a href="https://medium.com/@damilhare"
+        ><img src="../assets/medium.svg"
+      /></a>
     </div>
   </header>
 </template>
@@ -37,7 +43,13 @@ header {
   flex-direction: column;
   flex-grow: 1;
 }
-
+.socials img {
+  width: 30px;
+  transition: all 1s;
+}
+.socials img:hover {
+  transform: scale(2);
+}
 .intro,
 .socials {
   margin-bottom: 100px;
