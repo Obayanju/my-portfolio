@@ -30,73 +30,27 @@ export default {
       sections: [
         {
           title: "About",
-          body: `Quisque ac fringilla ex. Praesent blandit mattis augue,
-       non tristique sem bibendum a. Donec in posuere ex, iaculis
-       mattis sapien. Donec et ex congue, congue mi et, sagittis
-       mi. Aliquam ac ex nisl. Proin ullamcorper mollis felis ac
-       dictum. Suspendisse porttitor nulla eget dignissim maximus.
-       Nullam ut gravida tortor, quis pharetra leo. Aliquam nec
-       consectetur lectus, sed congue libero. Integer vulputate,
-       justo quis iaculis lacinia, nulla sem pharetra felis, vitae
-       sodales neque ipsum pellentesque ante. Aliquam egestas
-       dui in pretium fermentum. Phasellus auctor est est.
-       `
+          type: "about",
+          body: `I'm a computer science major in my 4th year,
+          and currently a teaching assistant for Programming
+          in C++ CS3005. I got introduced to programming after graduating from high
+          school, and have been hooked ever since. These days I'm juggling school work,
+           side projects, and being a teaching assistant.`
         },
         {
           title: "Experience",
-          body: `Quisque ac fringilla ex. Praesent blandit mattis augue,
-       non tristique sem bibendum a. Donec in posuere ex, iaculis
-       mattis sapien. Donec et ex congue, congue mi et, sagittis
-       mi. Aliquam ac ex nisl. Proin ullamcorper mollis felis ac
-       dictum. Suspendisse porttitor nulla eget dignissim maximus.
-       Nullam ut gravida tortor, quis pharetra leo. Aliquam nec
-       consectetur lectus, sed congue libero. Integer vulputate,
-       justo quis iaculis lacinia, nulla sem pharetra felis, vitae
-       sodales neque ipsum pellentesque ante. Aliquam egestas
-       dui in pretium fermentum. Phasellus auctor est est.
-       `
+          type: "experience",
+          body: `Voluntary Teaching Assistant - Dixie State University`
         },
         {
-          title: "Resumé",
-          body: `Quisque ac fringilla ex. Praesent blandit mattis augue,
-       non tristique sem bibendum a. Donec in posuere ex, iaculis
-       mattis sapien. Donec et ex congue, congue mi et, sagittis
-       mi. Aliquam ac ex nisl. Proin ullamcorper mollis felis ac
-       dictum. Suspendisse porttitor nulla eget dignissim maximus.
-       Nullam ut gravida tortor, quis pharetra leo. Aliquam nec
-       consectetur lectus, sed congue libero. Integer vulputate,
-       justo quis iaculis lacinia, nulla sem pharetra felis, vitae
-       sodales neque ipsum pellentesque ante. Aliquam egestas
-       dui in pretium fermentum. Phasellus auctor est est.
-       `
-        },
-        {
-          title: "Projects",
-          body: `Quisque ac fringilla ex. Praesent blandit mattis augue,
-       non tristique sem bibendum a. Donec in posuere ex, iaculis
-       mattis sapien. Donec et ex congue, congue mi et, sagittis
-       mi. Aliquam ac ex nisl. Proin ullamcorper mollis felis ac
-       dictum. Suspendisse porttitor nulla eget dignissim maximus.
-       Nullam ut gravida tortor, quis pharetra leo. Aliquam nec
-       consectetur lectus, sed congue libero. Integer vulputate,
-       justo quis iaculis lacinia, nulla sem pharetra felis, vitae
-       sodales neque ipsum pellentesque ante. Aliquam egestas
-       dui in pretium fermentum. Phasellus auctor est est.
-       `
+          title: "Selected Projects",
+          type: "project",
+          body: ``
         },
         {
           title: "Contacts",
-          body: `Quisque ac fringilla ex. Praesent blandit mattis augue,
-       non tristique sem bibendum a. Donec in posuere ex, iaculis
-       mattis sapien. Donec et ex congue, congue mi et, sagittis
-       mi. Aliquam ac ex nisl. Proin ullamcorper mollis felis ac
-       dictum. Suspendisse porttitor nulla eget dignissim maximus.
-       Nullam ut gravida tortor, quis pharetra leo. Aliquam nec
-       consectetur lectus, sed congue libero. Integer vulputate,
-       justo quis iaculis lacinia, nulla sem pharetra felis, vitae
-       sodales neque ipsum pellentesque ante. Aliquam egestas
-       dui in pretium fermentum. Phasellus auctor est est.
-       `
+          type: "contact",
+          body: `I'm currently in search of Internship for the summer of 2020. Get in touch with me!`
         }
       ]
     };

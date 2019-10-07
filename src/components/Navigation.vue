@@ -2,9 +2,9 @@
   <nav class="navbar">
     <a href="/" class="title">Damilare Obayanju</a>
     <ul class="links">
+      <button class="resume">Resumé</button>
       <a href="">About</a>
       <a href="">Experience</a>
-      <a href="">Resume</a>
       <a href="">Projects</a>
       <a href="">Contacts</a>
     </ul>
@@ -36,7 +36,7 @@ export default {};
   text-decoration: none;
 }
 .links a:hover {
-  color: yellow;
+  color: #0069ed;
 }
 .links a:last-child {
   padding-right: 30px;
@@ -44,5 +44,36 @@ export default {};
 nav .title {
   color: white;
   text-decoration: none;
+  margin: 10px;
+}
+
+.resume {
+  display: inline-block;
+  border: none;
+  padding: 1rem 1rem;
+  margin: 10px 10px;
+  text-decoration: none;
+  background: #0069ed;
+  color: #ffffff;
+  font-size: 1rem;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.resume:hover,
+.resume:focus {
+  background: #0053ba;
+}
+
+.resume:focus {
+  outline: 1px solid #fff;
+  outline-offset: -4px;
+}
+
+.resume:active {
+  transform: scale(0.99);
 }
 </style>
