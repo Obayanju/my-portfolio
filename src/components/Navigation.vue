@@ -1,12 +1,12 @@
 <template>
-  <nav class="navbar">
+  <nav id="navbar">
     <a href="/" class="title">Damilare Obayanju</a>
     <ul class="links">
       <button class="resume">Resumé</button>
-      <a href="">About</a>
-      <a href="">Experience</a>
-      <a href="">Projects</a>
-      <a href="">Contacts</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#project">Projects</a>
+      <a href="#contact">Contacts</a>
     </ul>
     <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a></div> -->
   </nav>
@@ -16,7 +16,7 @@
 export default {};
 </script>
 <style >
-.navbar {
+#navbar {
   background-color: #252628;
   display: flex;
   justify-content: space-between;
@@ -24,6 +24,7 @@ export default {};
   position: fixed;
   padding-left: 10px;
   width: 100%;
+  transition: top 0.3s;
 }
 .links {
   margin: 0;

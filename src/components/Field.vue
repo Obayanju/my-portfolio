@@ -1,5 +1,5 @@
 <template>
-  <fieldset>
+  <fieldset :id="content.type">
     <legend class="title">
       <h3 class="field-title">{{ content.title }}</h3>
     </legend>

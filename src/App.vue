@@ -30,6 +30,8 @@ export default {
   },
   data() {
     return {
+      prevScrollPos: null,
+      currScrollPos: null,
       sections: [
         {
           title: "About",
@@ -57,11 +59,32 @@ export default {
         }
       ]
     };
+  },
+  methods: {
+    handleScroll() {
+      this.currScrollPos = window.pageYOffset;
+      if (this.prevScrollPos > this.currScrollPos) {
+        document.getElementById("navbar").style.top = "0";
+      } else {
+        document.getElementById("navbar").style.top = "-160px";
+      }
+      this.prevScrollPos = this.currScrollPos;
+    }
+  },
+  created() {
+    this.prevScrollPos = window.pageYOffset;
+    window.addEventListener("scroll", this.handleScroll);
+  },
+  destroyed() {
+    window.removeEventListener("scroll", this.handleScroll);
   }
 };
 </script>
 
 <style>
+html {
+  scroll-behavior: smooth;
+}
 html,
 body {
   height: 100%;
