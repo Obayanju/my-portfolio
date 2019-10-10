@@ -9,6 +9,7 @@
         :key="index"
       />
     </div>
+    <Footer />
   </div>
 </template>
 
@@ -17,13 +18,15 @@ import Hero from "./components/Hero.vue";
 import Navigation from "./components/Navigation.vue";
 import Field from "./components/Field.vue";
 import FieldContainer from "./components/FieldContainer.vue";
+import Footer from "./components/Footer.vue";
 export default {
   name: "app",
   components: {
     Hero,
     Navigation,
     Field,
-    FieldContainer
+    FieldContainer,
+    Footer
   },
   data() {
     return {
@@ -76,7 +79,8 @@ body {
   color: #2c3e50;
   height: 100%;
 }
-#container {
+#container,
+footer {
   margin: 0 auto;
   max-width: 900px;
 }

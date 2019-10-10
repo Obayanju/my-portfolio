@@ -132,13 +132,13 @@ fieldset {
   color: white;
 }
 .contact-container {
-  margin: 50px 0;
+  text-align: center;
 }
 .contact-me {
   display: inline-block;
   border: none;
   padding: 1rem 2rem;
-  margin: 0 50%;
+  margin: 1rem 0;
   text-decoration: none;
   background: #0069ed;
   color: #ffffff;
