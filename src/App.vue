@@ -78,6 +78,6 @@ body {
 }
 #container {
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 900px;
 }
 </style>

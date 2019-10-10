@@ -31,13 +31,13 @@
           track of jobs as wishlists, applied, offer, or rejected.
         </p>
         <ul class="technologies">
-          <small>Vue</small>
-          <small>Express</small>
-          <small>MongoDB</small>
-          <small>Mongoose</small>
-          <small>HTML & CSS</small>
-          <small>Node.js</small>
-          <small>Heroku</small>
+          <small class="vue">Vue</small>
+          <small class="express">Express</small>
+          <small class="mongo">MongoDB</small>
+          <small class="mongoose">Mongoose</small>
+          <small class="html-css">HTML & CSS</small>
+          <small class="node">Node.js</small>
+          <small class="heroku">Heroku</small>
         </ul>
         <h3>
           <a class="title" href="https://github.com/Obayanju/felastab"
@@ -49,7 +49,7 @@
           the expected output.
         </p>
         <ul class="technologies">
-          <small>Go</small>
+          <small class="go">Go</small>
         </ul>
       </div>
       <div class="contact-container" v-if="content.type == 'contact'">
@@ -67,15 +67,45 @@ export default {
 </script>
 
 <style>
+.vue {
+  background-color: #50fa7b;
+}
+.express {
+  background-color: #fff;
+}
+.mongo {
+  background-color: #13aa52;
+}
+.mongoose {
+  background-color: #800;
+}
+.html-css {
+  background-color: #ff5079;
+}
+.node {
+  background-color: #026e00;
+}
+.heroku {
+  background-color: #79589f;
+}
+.go {
+  background-color: #7fbecd;
+}
 .technologies {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   list-style: none;
   padding-left: 0;
+  color: black;
+  /* margin-top: 0; */
 }
 .technologies small {
-  padding: 0 20px 0 0;
+  padding: 0 7px;
+  margin: 0 10px 0 0;
+  font-size: 1em;
+  font-weight: 700;
+  text-align: center;
 }
 h3 {
   margin: 0;
