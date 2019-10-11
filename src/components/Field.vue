@@ -121,7 +121,7 @@ fieldset {
   line-height: 2em;
 }
 .field-title {
-  color: #0069ed;
+  color: dodgerblue;
   cursor: pointer;
 }
 .title {
