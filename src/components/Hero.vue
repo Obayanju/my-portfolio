@@ -1,9 +1,9 @@
 <template>
   <header>
-    <h1 class="intro">
+    <p class="intro">
       Hello,<br />
       I'm Dami
-    </h1>
+    </p>
   </header>
 </template>
 
@@ -21,14 +21,29 @@ header {
 </style>
 <style scoped>
 .intro {
+  font-weight: 500;
+  font-size: 7em;
   color: white;
   flex-grow: 6;
   margin-left: 50px;
-  font-size: 7em;
+  margin-bottom: 100px;
   line-height: 0.9em;
 }
 
-.intro {
-  margin-bottom: 100px;
+@media only screen and (max-width: 500px) {
+  .intro {
+    margin-left: 20px;
+    font-weight: 200;
+    font-size: 5em;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .intro {
+    margin-left: 20px;
+    margin-bottom: 50px;
+    font-weight: 200;
+    font-size: 4em;
+  }
 }
 </style>

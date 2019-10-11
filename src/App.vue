@@ -66,7 +66,7 @@ export default {
       if (this.prevScrollPos > this.currScrollPos) {
         document.getElementById("navbar").style.top = "0";
       } else {
-        document.getElementById("navbar").style.top = "-160px";
+        document.getElementById("navbar").style.top = "-100px";
       }
       this.prevScrollPos = this.currScrollPos;
     }

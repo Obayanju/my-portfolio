@@ -77,4 +77,29 @@ nav .title {
 .resume:active {
   transform: scale(0.99);
 }
+
+@media only screen and (max-width: 500px) {
+  #navbar {
+    justify-content: center;
+  }
+  .links {
+    display: flex;
+  }
+  .resume {
+    margin: 0 10px 0 0;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .links {
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .title,
+  .resume,
+  .links {
+    font-size: 0.7rem;
+  }
+}
 </style>
