@@ -98,7 +98,6 @@ export default {
   list-style: none;
   padding-left: 0;
   color: black;
-  /* margin-top: 0; */
 }
 .technologies small {
   padding: 0 7px;
