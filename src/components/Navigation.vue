@@ -2,18 +2,27 @@
   <nav id="navbar">
     <a href="/" class="title">Damilare Obayanju</a>
     <ul class="links">
-      <button class="resume">Resumé</button>
+      <a :href="pdfLink" target="_blank">
+        <button class="resume">
+          Resumé
+        </button>
+      </a>
       <a href="#about">About</a>
       <a href="#experience">Experience</a>
       <a href="#project">Projects</a>
       <a href="#contact">Contacts</a>
     </ul>
-    <!-- <div>Icons made by <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy">Dave Gandy</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a></div> -->
   </nav>
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      pdfLink: require("../assets/base.pdf")
+    };
+  }
+};
 </script>
 <style >
 #navbar {

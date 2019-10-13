@@ -28,6 +28,14 @@
       /></a>
     </div>
     <div class="footnote">Engineered with ❤️ by Dami</div>
+    <div class="footnote credits">
+      Icons made by
+      <a href="https://www.flaticon.com/authors/dave-gandy" title="Dave Gandy"
+        >Dave Gandy</a
+      >
+      from
+      <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+    </div>
   </footer>
 </template>
 
@@ -44,6 +52,9 @@ footer {
 }
 .footnote {
   text-align: center;
+}
+.credits {
+  font-size: 15px;
 }
 .socials {
   display: flex;
