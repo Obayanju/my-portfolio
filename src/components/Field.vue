@@ -53,7 +53,9 @@
         </ul>
       </div>
       <div class="contact-container" v-if="content.type == 'contact'">
-        <button class="contact-me">Contact Me!</button>
+        <a href="mailto:obayanjud@gmail.com">
+          <button class="contact-me">Contact Me!</button>
+        </a>
       </div>
     </div>
   </fieldset>
