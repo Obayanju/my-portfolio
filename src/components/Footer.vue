@@ -50,14 +50,19 @@ footer {
   justify-content: center;
 }
 .socials a {
-  padding-left: 3em;
+  cursor: pointer;
+  padding: 0 1em;
   color: white;
   transition: all 0.3s;
 }
-.socials a:hover {
-  transform: scale(1.3);
-}
+
 .socials img {
   width: 30px;
+}
+
+@media only screen and (min-width: 500px) {
+  .socials a:hover {
+    transform: scale(1.3);
+  }
 }
 </style>
