@@ -67,6 +67,10 @@ export default {
 </script>
 
 <style>
+a.title:hover {
+  background-color: #0069ed;
+  color: black;
+}
 .vue {
   background-color: #50fa7b;
 }

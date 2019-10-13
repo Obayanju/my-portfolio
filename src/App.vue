@@ -39,7 +39,9 @@ export default {
           body: `I'm a computer science major in my 4th year,
           and currently a teaching assistant for Programming
           in C++ CS3005. I got introduced to programming after graduating from high
-          school, and have been hooked ever since. These days I'm juggling school work,
+          school, and have been hooked ever since. I'm interested in web development,
+          distributed systems, and building things in my never ending learning list.
+          These days I'm juggling school work,
            side projects, and being a teaching assistant.`
         },
         {
