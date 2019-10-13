@@ -57,7 +57,8 @@ export default {
         {
           title: "Contacts",
           type: "contact",
-          body: `I'm currently in search of Internship for the summer of 2020. Get in touch with me!`
+          body: `I'm currently in search of Internship or Entry level position starting
+          summer of 2020. Get in touch with me!`
         }
       ]
     };
