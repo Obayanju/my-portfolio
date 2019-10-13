@@ -68,11 +68,14 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 a.title:hover {
   background-color: #0069ed;
   color: black;
 }
+</style>
+
+<style>
 .vue {
   background-color: #50fa7b;
 }
